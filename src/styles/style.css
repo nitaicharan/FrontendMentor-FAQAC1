@@ -139,10 +139,6 @@ body {
   border-color: var(--light-grayish-blue);
 }
 
-.container--description h1 {
-  color: hsl(238, 29%, 16%);
-}
-
 .container--description a {
   --max-dimension-px: 12px;
   --min-dimension-percent: var(--max-dimension-px) * 0.75;
@@ -158,20 +154,31 @@ body {
       var(--max-dimension-px)
     )
     0;
-  margin: clamp(
-      var(--min-dimension-percent),
-      var(--max-dimension-rem) + var(--range-dimension-effect) - var(--max-dimension-rem) *
-        var(--effect-dimension-point),
-      var(--max-dimension-px)
-    )
-    0;
 
   text-decoration: none;
   color: var(--dark-grayish-color);
+  cursor: pointer;
+}
+
+.container--description img {
+  display: inline-block;
+
+  margin-left: 1em;
 }
 
 .container--description a:hover {
   color: var(--red-color);
+}
+
+.container--description p {
+  visibility: hidden;
+  height: 0;
+}
+
+.container--description h1 {
+  margin-bottom: 1em;
+
+  color: hsl(238, 29%, 16%);
 }
 
 @media only screen and (max-width: 919px) {
