@@ -14,7 +14,7 @@
 
 ## About project
 
-This project was a challenge of Frontend Mentor website called "Profile card component".
+This project was a challenge of Frontend Mentor website called "FAQ accordion card".
 
 - [Challenge][challenge-url]
 - [Solution][solution-url]
