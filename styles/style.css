@@ -1,0 +1,58 @@
+:root {
+  --mobile: 375px;
+  --desktop: 1440px;
+  --dark-saturated-color: hsl(238, 29%, 16%);
+  --red-color: hsl(14, 88%, 65%);
+  /* Background gradient */
+  --violet-color: hsl(273, 75%, 66%);
+  --blue-color: hsl(240, 73%, 65%);
+  /* Text */
+  --dark-grayish-color: hsl(237, 12%, 33%);
+  --light-grayish-color: hsl(240, 6%, 50%);
+  /* Dividers */
+  --light-grayish-blue: hsl(240, 5%, 91%);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Kumbh Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  background-repeat: no-repeat;
+}
+
+.container {
+  height: 100vh;
+  width: 90rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  overflow: hidden;
+  width: 100%;
+  height: 43.7rem;
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 2rem 2rem 8rem rgba(0, 0, 0, 0.2);
+  background-image: url(../images/illustration-woman-online-desktop.svg),
+    url(../images/bg-pattern-desktop.svg);
+  background-position: -8.75rem center, -58rem -33rem;
+  background-repeat: no-repeat;
+}
