@@ -23,24 +23,25 @@
 }
 
 html {
-  font-size: 62.5%;
   height: 100%;
 
-  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-  background-repeat: no-repeat;
+  font-size: 62.5%;
+
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  background-attachment: fixed;
 }
 
 body {
+  --max-dimension-px: 16px;
+  --max-dimension-rem: 1.6rem;
+  --range-dimension-effect: 1.5vw;
+
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
 
   height: 100%;
-
-  --max-dimension-px: 16px;
-  --max-dimension-rem: 1.6rem;
-  --range-dimension-effect: 1.5vw;
 
   font-size: clamp(
     calc(var(--max-dimension-px) * 0.75),

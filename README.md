@@ -5,8 +5,8 @@
 
 <p align="center">:bangbang: Project available to access at:  https://nitaicharan.github.io/FrontendMentor-FAQAC1 :bangbang:</p>
 
-<!--[![](FrontendMentor-FAQAC1.png)](https://rocketseate5trjsfe1-clgq8mgj6-nitaicharan.vercel.app//)-->
-<a href="https://rocketseate5trjsfe1-clgq8mgj6-nitaicharan.vercel.app/">
+<!--[![](PREVIEW.png)](https://nitaicharan.github.io/FrontendMentor-FAQAC1)-->
+<a href="https://nitaicharan.github.io/FrontendMentor-FAQAC1">
   <p align="center">
     <img style="height: 100px" src="PREVIEW.png">
   </p>
