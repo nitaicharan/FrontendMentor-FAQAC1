@@ -33,6 +33,7 @@ html {
 body {
   display: flex;
   align-items: center;
+  justify-content: center;
   box-sizing: border-box;
 
   height: 100%;
@@ -56,7 +57,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
 
-  margin: 0 auto;
+  margin: 5rem;
 
   background-color: white;
   border-radius: 2rem;
@@ -73,6 +74,22 @@ body {
   background-image: url(../images/illustration-woman-online-desktop.svg), url(../images/bg-pattern-desktop.svg);
   background-position: -7rem 50%, -56.5rem calc(50% - 6.5rem);
   background-repeat: no-repeat;
+}
+
+.image--box {
+  position: absolute;
+  z-index: 1;
+
+  top: calc(50% - 4.3rem);
+  left: -10rem;
+}
+
+.image--woman {
+  display: none;
+}
+
+.image--pattern {
+  display: none;
 }
 
 .container--description {
@@ -99,6 +116,8 @@ body {
         var(--effect-horizontal-point),
       var(--max-horizontal-px)
     );
+
+  min-width: 41rem;
 }
 
 .container--description section {
@@ -154,10 +173,48 @@ body {
   color: var(--red-color);
 }
 
-.image--box {
-  position: absolute;
-  z-index: 1;
+@media only screen and (max-width: 919px) {
+  :root {
+    --move-top: 0rem;
+  }
 
-  top: calc(50% - 4.3rem);
-  left: -10rem;
+  .card {
+    transform: translateY(10%);
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .container--image {
+    width: 100%;
+
+    text-align: center;
+
+    background-image: none;
+  }
+
+  .image--box {
+    display: none;
+  }
+
+  .image--woman {
+    display: inline-block;
+    position: absolute;
+
+    width: 60%;
+
+    top: 0;
+    left: 50%;
+
+    transform: translate(calc(-50% - 2rem), calc(-50%));
+  }
+
+  .image--pattern {
+    display: inline-block;
+  }
+
+  .container--description {
+    width: 100%;
+  }
 }
