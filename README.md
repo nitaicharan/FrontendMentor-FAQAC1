@@ -46,8 +46,8 @@ git push origin `git subtree split --prefix src/ main`:gh-pages --force
 
 <!-- ALIAS README -->
 
-[challenge-url]: https://frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62
-[solution-url]: https://www.frontendmentor.io/solutions/responsive-layout-using-flexbox-mnbzsm0ty
+[challenge-url]: https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam
+[solution-url]: https://www.frontendmentor.io/solutions/html-and-css-_A1SsvKu4
 
 <!-- CONTACT SHIELDS -->
 
